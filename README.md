@@ -7,7 +7,7 @@ This project is a clean, modern, and responsive 3-page website built using **Boo
 ## 🚀 Live Demo
 (Replace this link after deployment)
 
-🔗 **Live Website:** https://yourusername.github.io/bootstrap_internship/  
+🔗 **Live Website:** https://spandanagera.github.io/bootstrap_internship/
 🔗 **GitHub Repository:** https://github.com/yourusername/bootstrap_internship
 
 ---
