@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Modern Bootstrap Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .banner {
+      background: #610d0d;
+      padding: 100px 0;
+      color: white;
+    }
+    .service-card:hover {
+      transform: translateY(-6px);
+      transition: 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">ModernUI</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="banner text-center">
+  <h1 class="fw-bold display-5">About Us</h1>
+  <p class="lead">We design clean and powerful web interfaces</p>
+</header>
+
+<section class="py-5">
+  <div class="container">
+
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <h2 class="fw-bold mb-3">Who We Are</h2>
+        <p>
+          We are a design-focused development team creating modern UI layouts
+          using Bootstrap’s best components and grids.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/600x350" class="img-fluid rounded shadow">
+      </div>
+    </div>
+
+    <h2 class="fw-bold text-center mb-4">Our Services</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card h-100 p-3 shadow-sm text-center service-card">
+          <h5 class="fw-bold">UI Design</h5>
+          <p>Modern layouts, color schemes, and interfaces.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 p-3 shadow-sm text-center service-card">
+          <h5 class="fw-bold">Frontend Development</h5>
+          <p>Clean HTML, CSS & Bootstrap websites.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 p-3 shadow-sm text-center service-card">
+          <h5 class="fw-bold">Support</h5>
+          <p>Fixing UI bugs and improving responsiveness.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer class="bg-dark text-light text-center py-3">
+  © 2025 ModernUI — All Rights Reserved
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
