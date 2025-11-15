@@ -1,0 +1,21 @@
+# Project Reflection
+
+This project helped me understand how to design clean, responsive layouts using **Bootstrap 5**. I explored the documentation, selected suitable components, and combined them to create three polished pages.
+
+## 📘 What I Did
+- Studied Bootstrap examples (navbar, cards, hero, forms)
+- Designed Home, About, and Contact pages using components
+- Ensured consistent spacing and responsiveness
+- Hosted the project on GitHub Pages
+- Prepared README and reflection as required
+
+## 🧩 Tools Used
+Bootstrap 5, HTML, CSS, VS Code, GitHub, GitHub Pages, and minimal AI assistance (for layout ideas & improvements).
+
+## ⚙️ Challenges
+- Maintaining uniform spacing → solved using Bootstrap utilities  
+- Making pages responsive → used grid system & breakpoints  
+- GitHub Pages deployment → fixed by setting branch = main, folder = root  
+
+## ✅ Summary
+This internship task strengthened my Bootstrap skills, improved my UI design approach, and helped me learn proper project structuring and hosting.
